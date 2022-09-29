@@ -3,6 +3,7 @@ import * as React from 'react';
 import s from './../App.module.css';
 import Button from '@mui/material/Button';
 import { TextField } from '@mui/material';
+import { Buttons } from './Button';
 
 type propsType = {
     maxValue: number
@@ -55,6 +56,7 @@ export function Setting(props: propsType) {
                 </div>
             </div>
             <div className={s.secondSetting}>
+                <Buttons name={'set'} disabled={props.error} onClick={clickHandler}/>
                 <Button onClick={clickHandler} disabled={props.error} variant="text">set</Button>
             </div>
         </div>

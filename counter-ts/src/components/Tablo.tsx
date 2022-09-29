@@ -1,6 +1,7 @@
-import { Button } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import s from './../App.module.css';
+import { Button } from '@mui/material';
+
 
 type propsType = {
     maxValue: number
