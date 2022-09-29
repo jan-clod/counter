@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614636777_77-p-fon-gori-dlya-fotoshopa-101.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.Setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 300px;
+  height: 220px;
+  padding: 30px;
+  margin-right: 5vw;
+  border-radius: 10px;
+
+  background-color: #ffffff60;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.firstSetting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+  padding: 10px;
+
+  border: solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(60deg, #b16ec4,#6ea3c4);
+}
+.firstSettingMaxValue {
+  margin: auto;
+  margin-bottom: 15px;
+}
+.firstSettingStartValue {
+  margin: auto;
+
+}
+.secondSetting {
+  display: flex;
+  justify-content:space-around;
+}
+
+.Tablo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 300px;
+  height: 220px;
+  padding: 30px;
+  border-radius: 10px;
+  
+  background-color: #ffffff50;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.firstTablo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ 
+  padding: 10px;
+  height: 127px;
+  
+  border: solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(60deg, #b16ec4,#6ea3c4);
+}
+.secondTablo {
+  display: flex;
+  justify-content:space-around;
+}
+.error {
+  text-shadow: red -2px 0 , cyan 2px 0;
+}
+button{
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
+}
