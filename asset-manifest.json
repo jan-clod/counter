@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jan-clod/counter/static/css/main.a2eb87fd.css",
-    "main.js": "/jan-clod/counter/static/js/main.f6d85e88.js",
-    "static/js/787.73c35344.chunk.js": "/jan-clod/counter/static/js/787.73c35344.chunk.js",
-    "index.html": "/jan-clod/counter/index.html",
-    "main.a2eb87fd.css.map": "/jan-clod/counter/static/css/main.a2eb87fd.css.map",
-    "main.f6d85e88.js.map": "/jan-clod/counter/static/js/main.f6d85e88.js.map",
-    "787.73c35344.chunk.js.map": "/jan-clod/counter/static/js/787.73c35344.chunk.js.map"
+    "main.css": "/counter/static/css/main.a2eb87fd.css",
+    "main.js": "/counter/static/js/main.22984736.js",
+    "static/js/787.73c35344.chunk.js": "/counter/static/js/787.73c35344.chunk.js",
+    "index.html": "/counter/index.html",
+    "main.a2eb87fd.css.map": "/counter/static/css/main.a2eb87fd.css.map",
+    "main.22984736.js.map": "/counter/static/js/main.22984736.js.map",
+    "787.73c35344.chunk.js.map": "/counter/static/js/787.73c35344.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2eb87fd.css",
-    "static/js/main.f6d85e88.js"
+    "static/js/main.22984736.js"
   ]
 }
